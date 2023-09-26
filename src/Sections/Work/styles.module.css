@@ -79,3 +79,47 @@
 .link:hover {
     color: var(--green);
 }
+@media screen and (max-width:600px ){
+    .project {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .img{
+        width: 150px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .heading {
+        color: var(--lightest-slate);
+        font-family: var(--font-sans);
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .desc {
+        background-color: var(--light-navy);
+        box-shadow: 0 10px 30px -15px var(--navy-shadow);
+        color: var(--light-slate);
+        font-family: var(--font-sans);
+        line-height: 10px;
+        font-size: 8px;
+        padding: 5px 5px 5px 0px ;
+        z-index: 2;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .skill_container {
+        font-size: 8px;
+        margin-bottom: 12px;
+        display: flex;
+    }
+    .link > svg {
+        color: var(--green);
+        width: 15px;
+        height: 15px;
+        margin-right: 0px;
+    }
+}

@@ -48,3 +48,41 @@
 .btn:hover {
     background: var(--green-tint);
 }
+
+@media screen and (max-width: 600px) {
+    /* Update styles for .home_section and other elements for smaller screens */
+    .home_section {
+        width: calc(100% - 100px);
+        height: 50vh;
+        max-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: var(--font-sans);
+    }
+
+    .greet {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .heading_1 {
+        font-size: 26px; /* Adjust as needed */
+    }
+
+    .heading_2 {
+        font-size: 20px; /* Adjust as needed */
+    }
+
+    .desc {
+        width: 100%; /* Adjust as needed */
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 15px; /* Adjust as needed */
+        width: 150px; /* Adjust as needed */
+        margin-top: 2px; /* Adjust as needed */
+    }
+}

@@ -19,7 +19,7 @@ function Navbar() {
 				<a href="#contact" className={styles.nav_link}>
 					<span>04.</span>Contact
 				</a>
-				<button className={styles.nav_resume_btn}>Resume</button>
+				{/* <button className={styles.nav_resume_btn}>Resume</button> */}
 			</div>
 		</nav>
 	);

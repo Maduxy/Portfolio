@@ -44,3 +44,26 @@
 .btn:hover {
     background: var(--green-tint);
 }
+@media screen and (max-width:600px ){
+    .contact_section {
+        height: 50vh;
+        max-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-sans);
+        position: relative;
+    }
+    .heading_2 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .desc {
+        font-size: 10px;
+        width: 250px;
+        text-align: center;
+        color: var(--slate);
+    }
+}

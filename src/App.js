@@ -14,9 +14,9 @@ function App() {
 			<Navbar />
 			<div className="app_section_container">
 				<Home />
-        <About />
-        <Experience />
-        <Work />
+				<About />
+				<Experience />
+				<Work />
 				<Contact />
 			</div>
 			<ContactBar />

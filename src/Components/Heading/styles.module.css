@@ -27,3 +27,24 @@
     align-self: center;
     margin-left: 15px;
 }
+@media screen and (max-width:600px ){
+    .container{
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 5px;
+        max-width: 350px;
+        padding-top: 20px;
+    }
+    .index {
+        font-size: 14px;
+        font-weight: 300;
+        color: rgba(100,255,218,.1);
+    }
+    .heading {
+        font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+        font-size: 20px;
+        color: var(--lightest-slate);
+        font-weight: 600;
+        margin-left: 15px;
+    }
+}
