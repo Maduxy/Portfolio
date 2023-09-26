@@ -1,0 +1,49 @@
+.contact_bar_wrapper {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_bar {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+
+.line {
+    width: 1px;
+    height: 120px;
+    background: #a8b2d1;
+    margin-top: 20px;
+}
+
+.email {
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    letter-spacing: 1px;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.icon {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.email:hover {
+    color: rgba(100,255,218,.1);
+    margin-bottom: 3px;
+}
+
+.icon:hover {
+    color:rgba(100,255,218,.1);
+    transform: translateY(-3px);
+}

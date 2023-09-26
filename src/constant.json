@@ -1,0 +1,47 @@
+{
+    "experiences": [
+        {
+            "company": "ACN",
+            "link": "/",
+            "title": "UX Designer",
+            "duration": "Mar 2022 - Present",
+            "desc": [
+                "Collaborated with team to optimize workflow and achieve objectives.",
+                "Monitored emerging UX design trends and practices for useful techniques and cutting-edge developments suitable for integration into future projects.",
+                "Analyzed user feedback to influence future UX updates, ameliorating user concerns and pain points during subsequent patch cycles.",
+                "Applied both qualitative and quantitative analysis techniques to continuously improve end-user experiences."
+            ]
+        },
+        {
+            "company": "Sustainable Development Advocate (SDA)",
+            "link": "/",
+            "title": "Volunteer",
+            "duration": "Oct 2021 - Present",
+            "desc": [
+                "Volunteered with groups and organizations to help make increased measurable differences for program recipients.",
+                "Engaged in about 5 community outreaches to support program mission.",
+                "Exhibited excellent communications and customer service relations skills.",
+                "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
+            ]
+        }
+        
+    ],
+    "projects": [
+        {
+            "title":"Movie Discovery web-app",
+            "image": "./images/Movie.png",
+            "desc": "A movie discovery app where users can search for their favourite and trending movies including TV series.",
+            "skills": ["React", "CSS"],
+            "github": "https://github.com/Maduxy/HNG_stage2",
+            "link": "https://hng-stage2-maduxy.vercel.app/"
+        },
+        {
+            "title":"Image Gallery",
+            "image": "./images/Gallery.png",
+            "desc": "A sortable image gallery where user can arrange their images to their liking .",
+            "skills": ["React", "CSS"],
+            "github": "https://github.com/Maduxy/Image_gallery",
+            "link": "https://image-gallery-kappa-gilt.vercel.app/"
+        }
+    ]
+}
