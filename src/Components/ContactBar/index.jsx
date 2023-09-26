@@ -23,7 +23,7 @@ function ContactBar() {
 				<div className={styles.line}></div>
 			</div>
 			<div className={styles.contact_bar}>
-				<a href="onyejiakamadu@gmail.com" className={styles.email}>
+				<a href="mailto:onyejiakamadu@gmail.com" className={styles.email}>
 					Onyejiakamadu@gmail.com
 				</a>
 				<div className={styles.line}></div>

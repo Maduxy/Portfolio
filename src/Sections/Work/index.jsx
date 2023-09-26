@@ -32,10 +32,10 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href="https://github.com/Maduxy/HNG_stage2" className={styles.link}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href="https://hng-stage2-maduxy.vercel.app/" className={styles.link}>
 										<OpenInNewIcon />
 									</a>
 								</div>
@@ -54,10 +54,10 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href="https://github.com/Maduxy/Image_gallery" className={styles.link}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href="https://image-gallery-kappa-gilt.vercel.app/" className={styles.link}>
 										<OpenInNewIcon />
 									</a>
 								</div>
