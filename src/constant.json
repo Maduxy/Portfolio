@@ -29,7 +29,7 @@
     "projects": [
         {
             "title":"Movie Discovery web-app",
-            "image": "./images/Movie.png",
+            "image": "./Images/Movie.png",
             "desc": "A movie discovery app where users can search for their favourite and trending movies including TV series.",
             "skills": ["React", "CSS"],
             "github": "https://github.com/Maduxy/HNG_stage2",
@@ -37,7 +37,7 @@
         },
         {
             "title":"Image Gallery",
-            "image": "./images/Gallery.png",
+            "image": "./Images/Gallery.png",
             "desc": "A sortable image gallery where user can arrange their images to their liking .",
             "skills": ["React", "CSS"],
             "github": "https://github.com/Maduxy/Image_gallery",
