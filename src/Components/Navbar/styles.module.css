@@ -73,21 +73,21 @@
         z-index: 100;
     }
     .nav_left {
-        padding-left: 10px;
+        padding-left: 15px;
     }
     .nav_right {
         padding-right: 5px;
     }
     .nav_left > a {
-        color: rgba(100, 255, 219, 0.51);
-        font-size: 10px;
+        color: rgba(100, 255, 219, 0.727);
+        font-size: 12px;
         font-weight: bold;
         font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     }
     .nav_link {
-        font-size: 8px;
+        font-size: 10px;
         color: var(--lightest-slate);
         cursor: pointer;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 }

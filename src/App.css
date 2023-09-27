@@ -10,7 +10,7 @@
         position: relative;
         width: calc(100% - 100px);
         top: 0;
-        left: 70px;
+        left: 40px;
         z-index: 2
     }
 }

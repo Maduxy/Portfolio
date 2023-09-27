@@ -53,15 +53,15 @@
     .desc {
         font-family: var(--font-sans);
         color: var(--slate);
-        font-size: 9px;
+        font-size: 10px;
     }
     .profile_img {
-        width: 90px;
+        width: 110px;
         border-radius: 10px;
-        height: 140px;
+        height: 160px;
     }
     .img_border {
-        width: 90px;
+        width: 110px;
         height: 140px;
         position: absolute;
         border: 2px solid var(--green);
